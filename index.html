@@ -1,462 +1,166 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Haldsdata.dk</title>
-        <meta name="description" content="Haldsdata.dk | Ejet af en mand styret af mange">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-
-        <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="assets/css/plugins.css" />
-
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target=".navbar-collapse">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <header id="main_menu" class="header navbar-fixed-top">            
-            <div class="main_menu_bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="nave_menu">
-                            <nav class="navbar navbar-default" id="navmenu">
-                                <div class="container-fluid">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand" href="#home">
-                                            <img src="assets/images/logo.png"/>
-                                        </a>
-                                    </div>
-
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                        <ul class="nav navbar-nav navbar-right">
-                                            <li><a href="#home">Forside</a></li>
-                                            <li><a href="#service">Hjælp</a></li>
-                                            <li><a href="#portfolio">Hosting</a></li>
-                                            <li><a href="#counter">Kontakt mig</a></li>
-                                            <li><a href="#contact">CV</a></li>
-                                        </ul>    
-                                    </div>
-
-                                </div>
-                            </nav>
-                        </div>	
-                    </div>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Haldsdata - Dashboard</title>
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+      <a class="navbar-brand mr-1" href="index.html">Haldsdata Drift</a>
+      <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <ul class="sidebar navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="erdugamer.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>ErDuGamer</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="opengaming.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>OpenGaming</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="haldsdata.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Haldsdata</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nyheder.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Nyheder</span>
+          </a>
+        </li>
+	</ul>
+      <div id="content-wrapper">
+        <div class="container-fluid">
+          <!-- Breadcrumbs-->
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">Overblik</a>
+            </li>
+            <li class="breadcrumb-item active">Overblik</li>
+          </ol>
+          <!-- Icon Cards-->
+          <div class="row">
+            <div class="col-xl-3 col-sm-6 mb-3">
+              <div class="card text-white bg-primary o-hidden h-100">
+                <div class="card-body">
+                  <div class="card-body-icon">
+                    <i class="fas fa-fw fa-comments"></i>
+                  </div>
+                  <div class="mr-5">0 Nye beskeder!</div>
                 </div>
 
+              </div>
             </div>
-        </header> 
-		<!--End of header -->
-
-
-
-
-
-        <section id="home" class="home">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 ">
-                            <div class="main_home_slider text-center">
-                                <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                        <h1>Velkommen til!</h1>
-                                        <p class="subtitle">Haldsdata - Ejet af en styret af mange</p>
-
-                                        <div class="home_btn">
-                                            <a href="" class="btn btn-md">Læs mere</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xl-3 col-sm-6 mb-3">
+              <div class="card text-white bg-warning o-hidden h-100">
+                <div class="card-body">
+                  <div class="card-body-icon">
+                    <i class="fas fa-fw fa-list"></i>
+                  </div>
+                  <div class="mr-5">0 Nye sager!</div>
                 </div>
+              </div>
             </div>
-        </section>
-
-
-
-
-
-        <section id="service" class="service">
-            <div class="container">
-                <div class="row">
-                    <div class="main_service_area sections"> 
-                        <div class="col-sm-6">
-                            <div class="signle_service_left">
-                                <h2>Hvad
-                                    Laver 
-                                    Jeg</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="single_service_right">
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-laptop-phone"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Game Server</h3>
-                                        <p>Få udviklet din egen professionel game server sammen med haldsdata.dk og opengaming.dk
-										vi sørger for alt det besværlige ting som at opdatere serveren installere programmer og alt det så du bare kan
-										holde fokus på dit fælleskab.</p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-screen"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Server</h3>
-                                        <p>Har du brug for hjælp til vedligeholdelse af din egen server? Kontakt haldsdata.dk idag for hjælp til vedligeholdelse og
-											udvikling</p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-picture"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Hosting</h3>
-                                        <p>Mangler du bare et billigt sted til at hoste dine servere kan du også sagtens kontakte os for et godt tilbud. </p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-laptop-phone"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Overvågning</h3>
-                                        <p>Få et overvågning gratis på dine servere ved at kontakte os idag.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xl-3 col-sm-6 mb-3">
+              <div class="card text-white bg-success o-hidden h-100">
+                <div class="card-body">
+                  <div class="card-body-icon">
+                    <i class="fas fa-fw fa-shopping-cart"></i>
+                  </div>
+                  <div class="mr-5">0 Nye bestillinger!</div>
                 </div>
+              </div>
             </div>
-        </section>
-
-
-        <section id="choose" class="choose">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_choose_area sections">
-                        <div class="col-sm-7 col-sm-offset-1">
-                            <div class="main_choose_content text-left">
-                                <div class="single_choose_content">
-                                    <h1>Fantatisk service minded</h1>
-                                    <p>Oplev en person som altid er service minded og sætter løsning og samarbejde i fokus.
-									</p>
-                                    <a href="" class="btn btn-larg">Brug for hjælp kontakt mig idag <i class="lnr lnr-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xl-3 col-sm-6 mb-3">
+              <div class="card text-white bg-danger o-hidden h-100">
+                <div class="card-body">
+                  <div class="card-body-icon">
+                    <i class="fas fa-fw fa-life-ring"></i>
+                  </div>
+                  <div class="mr-5">0 Driftproblemer!</div>
                 </div>
+              </div>
             </div>
-        </section>
-
-
-
-
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="main_mix_content text-center sections">
-                        <div class="head_title">
-                            <h2>Mine projekter</h2>
-                        </div>
-                        <div class="main_mix_menu">
-                            <ul>
-                                <li class="btn btn-primary filter" data-filter="all">Gaming</li>
-                                <li class="btn btn-primary filter" data-filter=".cat1">Hjemmesider</li>
-                                <li class="btn btn-primary filter" data-filter=".cat2">Programmer</li>
-                                <li class="btn btn-primary filter" data-filter=".cat3">Scripts</li>
-                                <li class="btn btn-primary filter" data-filter=".cat4">N/A</li>
-                            </ul>
-                        </div>
-
-                        <div id="mixcontent" class="mixcontent">
-                            <div class="col-md-3 mix cat1 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf1.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf2.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf3.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat3 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf4.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf5.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf6.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf7.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf7.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="gap"></div>
-                        </div>
-                    </div>                     
-                </div>
+          </div>
+          <!-- Area Chart Example-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fas fa-chart-area"></i>
+              Drift problemer oversigt</div>
+            <div class="card-body">
+              <canvas id="myAreaChart" width="100%" height="30"></canvas>
             </div>
-        </section> 
-		<!-- End of portfolio two Section -->        
-
-
-
-
-        <section id="counter" class="counter">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_counter sections text-center">
-                            <div class="col-sm-10 col-sm-offset-1">
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-12">
-                                        <div class="single_counter_right">
-                                            <i class="lnr lnr-users"></i>
-                                            <h2 class="statistic-counter">-3,800</h2>
-                                            <p>Glade folk</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-12">
-                                        <div class="single_counter_right">
-                                            <i class="fa fa-line-chart"></i>
-                                            <h2 class="statistic-counter">124</h2>
-                                            <p>Projekter færdig</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-12">
-                                        <div class="single_counter_right">
-                                            <i class="lnr lnr-heart"></i>
-                                            <h2 class="statistic-counter">20</h2>
-                                            <p>Positiv anmneldser</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 col-xs-12">
-                                        <div class="single_counter_right">
-                                            <i class="lnr lnr-gift"></i>
-                                            <h2 class="statistic-counter">123</h2>
-                                            <p>Gratis programmer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card-footer small text-muted">Opdateret 16/10/2018 - 11:59</div>
+          </div>
+        <!-- Sticky Footer -->
+        <footer class="sticky-footer">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright © Haldsdata.dk 2014-2018</span>
             </div>
-        </section>
-
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="main_contact sections">
-                        <div class="head_title text-center">
-                            <h2>Kontakt</h2>
-                        </div>
-
-                        <div class="row">
-                            <div class="contact_contant">
-
-                                <div class="col-sm-6 col-xs-12">
-                                    <h4>Skriv en besked</h4>
-                                    <div class="single_contant_left">
-                                        <form action="#" id="formid">
-                                            <!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">-->
-
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="name" placeholder="Navn" required="">
-                                            </div>
-
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                                            </div>
-
-                                            <div class="form-group">
-                                                <textarea class="form-control" name="message" rows="8" placeholder="Besked"></textarea>
-                                            </div>
-
-                                            <div class="">
-                                                <input type="submit" value="Send" class="btn btn-primary">
-                                            </div>
-                                            <!--</div>--> 
-                                        </form>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-sm-5 col-sm-offset-1 col-xs-12">
-                                    <div class="single_message_right_info">
-                                        <h4>Kontakt :</h4>
-                                        <ul>
-                                            <li><a href=""><i class="fa fa-envelope"></i> kontakt@haldsdata.dk</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div> <!-- End of messsage contant-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <footer id="footer" class="footer">
-            <div class="container">
-                <div class="main_footer">
-                    <div class="row">
-
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="copyright_text">
-                                <p>"@Copyright 2015-2018 - Haldsdata.dk"</p>
-							</div>
-                        </div>
-
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="footer_socail">
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-twitter"></i></a>
-                                <a href=""><i class="fa fa-google-plus"></i></a>
-                                <a href=""><i class="fa fa-rss"></i></a>
-                                <a href=""><i class="fa fa-instagram"></i></a>
-                                <a href=""><i class="fa fa-dribbble"></i></a>
-                                <a href=""><i class="fa fa-behance"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </footer>
-
-
-
-        <!-- START SCROLL TO TOP  -->
-
-        <div class="scrollup">
-            <a href="#"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      <!-- /.content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
         </div>
-
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-        <script src="assets/js/jquery.easypiechart.min.js"></script>
-        <script src="assets/js/jquery.mixitup.min.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <!-- Demo scripts for this page-->
+    <script src="js/demo/datatables-demo.js"></script>
+    <script src="js/demo/chart-area-demo.js"></script>
+  </body>
 </html>
